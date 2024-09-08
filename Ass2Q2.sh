@@ -14,7 +14,7 @@ do
 	x=`expr substr $s $i 1`
 	#x=${s:$i:1}
 	r=$x$r
-	#i=`expr i + 1`
+	#i=`expr $i + 1`
 	i=$((i+1))
 done
 echo "Reverse of $s = $r"
