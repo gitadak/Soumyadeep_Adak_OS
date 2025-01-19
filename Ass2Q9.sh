@@ -24,7 +24,7 @@ echo
 # Deletion of element
 read -p "Enter the element position (1-based index): " pos
 pos=$((pos-1))
-for (( i=$pos+1; i<=n; i++))
+for (( i=$pos+1; i<=n; i++ ))
 do
 	a[$((i-1))]=${a[$i]}
 done
